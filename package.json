@@ -4,8 +4,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "deploy": "aws s3 sync build/ s3://nodejs.com1234",
     "build": "webpack --mode production",
+    "deploy": "aws s3 sync build/ s3://nodejs.com1234",
     "production": "npm run build && npm run deploy"
   },
   "dependencies": {
