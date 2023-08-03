@@ -9,6 +9,7 @@
     "production": "npm run build && npm run deploy"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "npm install webpack --save-dev"
   }
 }
